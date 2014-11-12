@@ -1,0 +1,6 @@
+*.o
+GameJam
+allegro-5.0.10/examples/*
+allegro-5.0.10/docs/*
+allegro-5.0.10/demos/*
+

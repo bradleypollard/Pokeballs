@@ -1,0 +1,979 @@
+The system is: Linux - 3.8.0-35-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/2.8.10.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/2.8.10.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3951822567/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3951822567.dir/build.make CMakeFiles/cmTryCompileExec3951822567.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3951822567.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3951822567.dir/testCCompiler.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3951822567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3951822567.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3951822567.dir/testCCompiler.c.o  -o cmTryCompileExec3951822567 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3079365680/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3079365680.dir/build.make CMakeFiles/cmTryCompileExec3079365680.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3079365680
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3079365680.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3079365680 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-1ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3079365680' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3079365680 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3079365680/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3079365680.dir/build.make CMakeFiles/cmTryCompileExec3079365680.dir/build]
+  ignore line: [make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3079365680]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3079365680.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3079365680 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-1ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3079365680' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3079365680 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3079365680] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3079365680.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2542122906/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2542122906.dir/build.make CMakeFiles/cmTryCompileExec2542122906.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2542122906.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2542122906.dir/testCXXCompiler.cxx.o -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2542122906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2542122906.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec2542122906.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2542122906 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4047108397/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4047108397.dir/build.make CMakeFiles/cmTryCompileExec4047108397.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4047108397
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4047108397.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4047108397 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-1ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4047108397' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4047108397 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4047108397/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4047108397.dir/build.make CMakeFiles/cmTryCompileExec4047108397.dir/build]
+  ignore line: [make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4047108397]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4047108397.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4047108397 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-1ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-1ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4047108397' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4047108397 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4047108397] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec4047108397.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2017714713/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2017714713.dir/build.make CMakeFiles/cmTryCompileExec2017714713.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2017714713.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2017714713.dir/CheckIncludeFile.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2017714713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2017714713.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2017714713.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2017714713 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2630104161/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2630104161.dir/build.make CMakeFiles/cmTryCompileExec2630104161.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2630104161.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2630104161.dir/CheckIncludeFile.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2630104161
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2630104161.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2630104161.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2630104161 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2855310533/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2855310533.dir/build.make CMakeFiles/cmTryCompileExec2855310533.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2855310533.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2855310533.dir/CheckIncludeFile.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2855310533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2855310533.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2855310533.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2855310533 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2313497358/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2313497358.dir/build.make CMakeFiles/cmTryCompileExec2313497358.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2313497358.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2313497358.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec2313497358
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2313497358.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2313497358.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec2313497358 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2774797368/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2774797368.dir/build.make CMakeFiles/cmTryCompileExec2774797368.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2774797368.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2774797368.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2774797368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2774797368.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2774797368.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2774797368 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2678622676/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2678622676.dir/build.make CMakeFiles/cmTryCompileExec2678622676.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2678622676.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2678622676.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2678622676
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2678622676.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2678622676.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2678622676 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;linux/joystick.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3875312416/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3875312416.dir/build.make CMakeFiles/cmTryCompileExec3875312416.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3875312416.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3875312416.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3875312416
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3875312416.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3875312416.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3875312416 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3799949564/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3799949564.dir/build.make CMakeFiles/cmTryCompileExec3799949564.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3799949564.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3799949564.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3799949564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3799949564.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3799949564.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3799949564 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec162950926/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec162950926.dir/build.make CMakeFiles/cmTryCompileExec162950926.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec162950926.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec162950926.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec162950926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec162950926.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec162950926.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec162950926 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1838502134/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1838502134.dir/build.make CMakeFiles/cmTryCompileExec1838502134.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1838502134.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1838502134.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1838502134
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1838502134.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1838502134.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1838502134 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1744999174/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1744999174.dir/build.make CMakeFiles/cmTryCompileExec1744999174.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1744999174.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1744999174.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1744999174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1744999174.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1744999174.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1744999174 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1655474632/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1655474632.dir/build.make CMakeFiles/cmTryCompileExec1655474632.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1655474632.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1655474632.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1655474632
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1655474632.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1655474632.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1655474632 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec390768399/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec390768399.dir/build.make CMakeFiles/cmTryCompileExec390768399.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec390768399.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec390768399.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec390768399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec390768399.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec390768399.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec390768399 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1168570121/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1168570121.dir/build.make CMakeFiles/cmTryCompileExec1168570121.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1168570121.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1168570121.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1168570121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1168570121.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1168570121.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1168570121 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2139602328/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2139602328.dir/build.make CMakeFiles/cmTryCompileExec2139602328.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2139602328.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2139602328.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2139602328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2139602328.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2139602328.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2139602328 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/soundcard.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec533688281/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec533688281.dir/build.make CMakeFiles/cmTryCompileExec533688281.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec533688281.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec533688281.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec533688281
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec533688281.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec533688281.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec533688281 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/soundcard.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3484679957/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3484679957.dir/build.make CMakeFiles/cmTryCompileExec3484679957.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3484679957.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3484679957.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3484679957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3484679957.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3484679957.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3484679957 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/inotify.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec211010801/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec211010801.dir/build.make CMakeFiles/cmTryCompileExec211010801.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec211010801.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec211010801.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec211010801
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec211010801.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec211010801.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec211010801 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/timerfd.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3376300625/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3376300625.dir/build.make CMakeFiles/cmTryCompileExec3376300625.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3376300625.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3376300625.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3376300625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3376300625.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3376300625.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3376300625 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1283221350/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1283221350.dir/build.make CMakeFiles/cmTryCompileExec1283221350.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1283221350.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTryCompileExec1283221350.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1283221350
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1283221350.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTryCompileExec1283221350.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1283221350 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec615892661/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec615892661.dir/build.make CMakeFiles/cmTryCompileExec615892661.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec615892661.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTryCompileExec615892661.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec615892661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec615892661.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTryCompileExec615892661.dir/CheckFunctionExists.c.o  -o cmTryCompileExec615892661 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mprotect exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3290187890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3290187890.dir/build.make CMakeFiles/cmTryCompileExec3290187890.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3290187890.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mprotect   -o CMakeFiles/cmTryCompileExec3290187890.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3290187890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3290187890.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mprotect    CMakeFiles/cmTryCompileExec3290187890.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3290187890 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sched_yield exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3977237665/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3977237665.dir/build.make CMakeFiles/cmTryCompileExec3977237665.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3977237665.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sched_yield   -o CMakeFiles/cmTryCompileExec3977237665.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3977237665
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3977237665.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sched_yield    CMakeFiles/cmTryCompileExec3977237665.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3977237665 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3414414067/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3414414067.dir/build.make CMakeFiles/cmTryCompileExec3414414067.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3414414067.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTryCompileExec3414414067.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3414414067
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3414414067.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTryCompileExec3414414067.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3414414067 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4004574615/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4004574615.dir/build.make CMakeFiles/cmTryCompileExec4004574615.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4004574615.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec4004574615.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4004574615
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4004574615.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec4004574615.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4004574615 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1947390602/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1947390602.dir/build.make CMakeFiles/cmTryCompileExec1947390602.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1947390602.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTryCompileExec1947390602.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1947390602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1947390602.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=ftello    CMakeFiles/cmTryCompileExec1947390602.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1947390602 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1065447656/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1065447656.dir/build.make CMakeFiles/cmTryCompileExec1065447656.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1065447656.dir/ALLEGRO_HAVE__BOOL.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1065447656.dir/ALLEGRO_HAVE__BOOL.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CheckTypeSize/ALLEGRO_HAVE__BOOL.c
+Linking C executable cmTryCompileExec1065447656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1065447656.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1065447656.dir/ALLEGRO_HAVE__BOOL.c.o  -o cmTryCompileExec1065447656 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_VA_COPY succeded with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec533898014/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec533898014.dir/build.make CMakeFiles/cmTryCompileExec533898014.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec533898014.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall   -DALLEGRO_HAVE_VA_COPY   -o CMakeFiles/cmTryCompileExec533898014.dir/src.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec533898014
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec533898014.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DALLEGRO_HAVE_VA_COPY    CMakeFiles/cmTryCompileExec533898014.dir/src.c.o  -o cmTryCompileExec533898014 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <stdarg.h>
+    int main(void) {
+        va_list a, b;
+        va_copy(a, b);
+        return 0;
+    }
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec52562911/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec52562911.dir/build.make CMakeFiles/cmTryCompileExec52562911.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec52562911.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec52562911.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec52562911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec52562911.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec52562911.dir/CheckFunctionExists.c.o  -o cmTryCompileExec52562911 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3073110533/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3073110533.dir/build.make CMakeFiles/cmTryCompileExec3073110533.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3073110533.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3073110533.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3073110533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3073110533.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3073110533.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3073110533 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec376509722/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec376509722.dir/build.make CMakeFiles/cmTryCompileExec376509722.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec376509722.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec376509722.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec376509722
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec376509722.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec376509722.dir/CheckFunctionExists.c.o  -o cmTryCompileExec376509722 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1623190325/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1623190325.dir/build.make CMakeFiles/cmTryCompileExec1623190325.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1623190325.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1623190325.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1623190325
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1623190325.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1623190325.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1623190325 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec126615560/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec126615560.dir/build.make CMakeFiles/cmTryCompileExec126615560.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec126615560.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec126615560.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec126615560
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec126615560.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec126615560.dir/CheckFunctionExists.c.o  -o cmTryCompileExec126615560 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3417758609/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3417758609.dir/build.make CMakeFiles/cmTryCompileExec3417758609.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3417758609.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3417758609.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3417758609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3417758609.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec3417758609.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3417758609 -rdynamic -lICE 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1819855549/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1819855549.dir/build.make CMakeFiles/cmTryCompileExec1819855549.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1819855549.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1819855549.dir/CheckIncludeFiles.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1819855549
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1819855549.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1819855549.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1819855549 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec347380763/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec347380763.dir/build.make CMakeFiles/cmTryCompileExec347380763.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec347380763.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec347380763.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec347380763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec347380763.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec347380763.dir/CheckFunctionExists.c.o  -o cmTryCompileExec347380763 -rdynamic -lpthread 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XcursorImageCreate exists in the Xcursor passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1269515746/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1269515746.dir/build.make CMakeFiles/cmTryCompileExec1269515746.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1269515746.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XcursorImageCreate   -o CMakeFiles/cmTryCompileExec1269515746.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1269515746
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1269515746.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XcursorImageCreate    CMakeFiles/cmTryCompileExec1269515746.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1269515746 -rdynamic -lXcursor -lSM -lICE -lX11 -lXext 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XF86VidModeQueryExtension exists in the Xxf86vm passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3009181851/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3009181851.dir/build.make CMakeFiles/cmTryCompileExec3009181851.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3009181851.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension   -o CMakeFiles/cmTryCompileExec3009181851.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3009181851
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3009181851.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension    CMakeFiles/cmTryCompileExec3009181851.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3009181851 -rdynamic -lXxf86vm -lSM -lICE -lX11 -lXext 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3926042064/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3926042064.dir/build.make CMakeFiles/cmTryCompileExec3926042064.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3926042064.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3926042064.dir/CheckIncludeFile.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3926042064
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3926042064.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3926042064.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3926042064 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XineramaQueryExtension exists in the Xinerama passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1507657843/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1507657843.dir/build.make CMakeFiles/cmTryCompileExec1507657843.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1507657843.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension   -o CMakeFiles/cmTryCompileExec1507657843.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1507657843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1507657843.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension    CMakeFiles/cmTryCompileExec1507657843.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1507657843 -rdynamic -lXinerama -lSM -lICE -lX11 -lXext 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1545230270/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1545230270.dir/build.make CMakeFiles/cmTryCompileExec1545230270.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1545230270.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1545230270.dir/CheckIncludeFile.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1545230270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1545230270.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1545230270.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1545230270 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XRRQueryExtension exists in the Xrandr passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3064648384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3064648384.dir/build.make CMakeFiles/cmTryCompileExec3064648384.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3064648384.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension   -o CMakeFiles/cmTryCompileExec3064648384.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3064648384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3064648384.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension    CMakeFiles/cmTryCompileExec3064648384.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3064648384 -rdynamic -lXrandr -lSM -lICE -lX11 -lXext 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenIM exists in the X11 passed with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1596633083/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1596633083.dir/build.make CMakeFiles/cmTryCompileExec1596633083.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1596633083.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenIM   -o CMakeFiles/cmTryCompileExec1596633083.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1596633083
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1596633083.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenIM    CMakeFiles/cmTryCompileExec1596633083.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1596633083 -rdynamic -lX11 -lSM -lICE -lX11 -lXext 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test OSS_COMPILES succeded with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec723806279/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec723806279.dir/build.make CMakeFiles/cmTryCompileExec723806279.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec723806279.dir/src.c.o
+/usr/bin/cc  -DALLEGRO_HAVE_LINUX_SOUNDCARD_H -DALLEGRO_HAVE_SYS_SOUNDCARD_H -msse -W -Wall   -DOSS_COMPILES   -o CMakeFiles/cmTryCompileExec723806279.dir/src.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c
+/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c:15:28: warning: unused variable ‘abi’ [-Wunused-variable]
+Linking C executable cmTryCompileExec723806279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec723806279.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DOSS_COMPILES    CMakeFiles/cmTryCompileExec723806279.dir/src.c.o  -o cmTryCompileExec723806279 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #ifdef ALLEGRO_HAVE_SOUNDCARD_H
+        #include <soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_SYS_SOUNDCARD_H
+        #include <sys/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_LINUX_SOUNDCARD_H
+        #include <linux/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_MACHINE_SOUNDCARD_H
+        #include <machine/soundcard.h>
+        #endif
+        int main(void) {
+            audio_buf_info abi;
+            return 0;
+        }
+Performing C SOURCE FILE Test PULSEAUDIO_COMPILES succeded with the following output:
+Change Dir: /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3753345187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3753345187.dir/build.make CMakeFiles/cmTryCompileExec3753345187.dir/build
+make[1]: Entering directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3753345187.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall   -DPULSEAUDIO_COMPILES   -o CMakeFiles/cmTryCompileExec3753345187.dir/src.c.o   -c /homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c
+/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c:11:34: warning: unused variable ‘ss’ [-Wunused-variable]
+/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c:10:31: warning: unused variable ‘si’ [-Wunused-variable]
+/homes/bp912/bitbucket/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp/src.c:9:29: warning: unused variable ‘c’ [-Wunused-variable]
+Linking C executable cmTryCompileExec3753345187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3753345187.dir/link.txt --verbose=1
+/usr/bin/cc    -msse -W -Wall   -DPULSEAUDIO_COMPILES    CMakeFiles/cmTryCompileExec3753345187.dir/src.c.o  -o cmTryCompileExec3753345187 -rdynamic 
+make[1]: Leaving directory `/vol/bitbucket/bp912/GameJam/allegro-5.0.10/Build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <pulse/simple.h>
+            #include <pulse/error.h>
+            #include <pulse/introspect.h>
+            #include <pulse/mainloop.h>
+            int main(void)
+            {
+                /* Require pulseaudio 0.9.15 */
+                pa_context *c;
+                pa_sink_info *si;
+                pa_sink_state_t *ss;
+                return 0;
+            }
